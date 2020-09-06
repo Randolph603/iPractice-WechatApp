@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "猫眼电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "selectedColor":"#D53E37",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text": "sss"
+      },
+      {
+        "pagePath":"pages/index/index",
+        "text": "sss"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
