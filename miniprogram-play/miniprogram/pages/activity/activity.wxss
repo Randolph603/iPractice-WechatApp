@@ -1,0 +1,4 @@
+/* pages/activity/activity.wxss */
+.box {
+  background: green;
+}

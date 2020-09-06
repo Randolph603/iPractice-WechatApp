@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/activity/activity",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -9,13 +10,13 @@
     "navigationBarTitleText": "AKL 活动",
     "navigationBarTextStyle": "white"
   },
-  "tabBar": {    
+  "tabBar": {
     "backgroundColor": "#000",
     "borderStyle": "black",
     "color": "#A7A7A7",
     "selectedColor": "#FFF",
     "list": [{
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/activity/activity",
         "iconPath": "./images/my.png",
         "selectedIconPath": "./images/my1.png",
         "text": "首页"
@@ -24,13 +25,13 @@
         "pagePath": "pages/logs/logs",
         "iconPath": "images/find.png",
         "selectedIconPath": "images/find1.png",
-        "text": "日志"
+        "text": "活动"
       },
       {
         "pagePath": "pages/index/index",
         "iconPath": "images/friend.png",
         "selectedIconPath": "images/friend1.png",
-        "text": "历史"
+        "text": "好友"
       },
       {
         "pagePath": "pages/index/index",
