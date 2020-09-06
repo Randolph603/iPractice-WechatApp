@@ -6,19 +6,29 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "猫眼电影",
+    "navigationBarTitleText": "AKL Fun",
     "navigationBarTextStyle": "white"
   },
   "tabBar":{
     "selectedColor":"#D53E37",
+    "backgroundColor": "#000",
+    "color":"#FFF",
     "list":[
+      {        
+        "pagePath":"pages/index/index",
+        "text": "Index"
+      },
+      {
+        "pagePath":"pages/logs/logs",
+        "text": "log"
+      },
       {
         "pagePath":"pages/index/index",
         "text": "sss"
       },
       {
         "pagePath":"pages/index/index",
-        "text": "sss"
+        "text": "My"
       }
     ]
   },
