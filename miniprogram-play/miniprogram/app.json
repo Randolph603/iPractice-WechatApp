@@ -6,29 +6,37 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "AKL Fun",
+    "navigationBarTitleText": "AKL 活动",
     "navigationBarTextStyle": "white"
   },
-  "tabBar":{
-    "selectedColor":"#D53E37",
+  "tabBar": {    
     "backgroundColor": "#000",
-    "color":"#FFF",
-    "list":[
-      {        
-        "pagePath":"pages/index/index",
-        "text": "Index"
+    "borderStyle": "black",
+    "color": "#A7A7A7",
+    "selectedColor": "#FFF",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "./images/my.png",
+        "selectedIconPath": "./images/my1.png",
+        "text": "首页"
       },
       {
-        "pagePath":"pages/logs/logs",
-        "text": "log"
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/find.png",
+        "selectedIconPath": "images/find1.png",
+        "text": "日志"
       },
       {
-        "pagePath":"pages/index/index",
-        "text": "sss"
+        "pagePath": "pages/index/index",
+        "iconPath": "images/friend.png",
+        "selectedIconPath": "images/friend1.png",
+        "text": "历史"
       },
       {
-        "pagePath":"pages/index/index",
-        "text": "My"
+        "pagePath": "pages/index/index",
+        "iconPath": "./images/account.png",
+        "selectedIconPath": "./images/account1.png",
+        "text": "我的"
       }
     ]
   },
