@@ -1,4 +1,8 @@
 <!--pages/activity/activity.wxml-->
-<text>pages/activity/activity.wxml</text>
-<view hover-class="box">Tip1</view>
-<view>Tip2</view>
+
+<view class="main">
+  <view class="box">
+    <view class="text">new life</view>
+    <view class="text">Tip2</view>
+  </view>
+</view>
