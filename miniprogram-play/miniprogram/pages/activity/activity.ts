@@ -6,6 +6,7 @@ Page({
     title: "SSDDSS",
     abe: "sdds",
     progress: 0,
+    logs: [] as string[]
   },
 
   // local call back methods
@@ -15,5 +16,6 @@ Page({
   },
   progressFinished() {
     this.setData({ progress: 0 });
+    this.data.logs.map(a => a.length);
   }
 })
