@@ -2,7 +2,7 @@
 
 <view class="main">
   <view class="box">
-    <view class="text">new life</view>
+    <view class="text" style="color:black; transition:0.5s">new life</view>
     <view class="text">{{title}}</view>
 
     <button type="primary" bindtap="buttonClick" >登录</button>
