@@ -3,6 +3,9 @@
 <view class="main">
   <view class="box">
     <view class="text">new life</view>
-    <view class="text">Tip2</view>
+    <view class="text">{{title}}</view>
+
+    <button type="primary" bindtap="buttonClick" >登录</button>
+    <progress percent="{{progress}}" border-radius="10" show-info active stroke-width="10" bindactiveend="progressFinished" />
   </view>
 </view>

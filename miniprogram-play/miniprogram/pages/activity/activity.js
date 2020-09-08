@@ -1,66 +1,16 @@
-// pages/activity/activity.js
+"use strict";
 Page({
-
-  /**
-   * Page initial data
-   */
-  data: {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page load
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page is initially rendered
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page show
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page hide
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page unload
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * Page event handler function--Called when user drop down
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * Called when page reach bottom
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * Called when user click on the top right corner to share
-   */
-  onShareAppMessage: function () {
-
-  }
-})
+    data: {
+        title: "SSDDSS",
+        abe: "sdds",
+        progress: 0,
+    },
+    buttonClick: function (e) {
+        console.log(e + "login !");
+        this.setData({ progress: 100 });
+    },
+    progressFinished: function () {
+        this.setData({ progress: 0 });
+    }
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWN0aXZpdHkuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJhY3Rpdml0eS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsSUFBSSxDQUFDO0lBSUgsSUFBSSxFQUFFO1FBQ0osS0FBSyxFQUFFLFFBQVE7UUFDZixHQUFHLEVBQUUsTUFBTTtRQUNYLFFBQVEsRUFBRSxDQUFDO0tBQ1o7SUFDRCxXQUFXLFlBQUMsQ0FBTTtRQUNoQixPQUFPLENBQUMsR0FBRyxDQUFDLENBQUMsR0FBRyxTQUFTLENBQUMsQ0FBQztRQUMzQixJQUFJLENBQUMsT0FBTyxDQUFDLEVBQUUsUUFBUSxFQUFFLEdBQUcsRUFBRSxDQUFDLENBQUM7SUFDbEMsQ0FBQztJQUNELGdCQUFnQjtRQUNkLElBQUksQ0FBQyxPQUFPLENBQUMsRUFBRSxRQUFRLEVBQUUsQ0FBQyxFQUFFLENBQUMsQ0FBQztJQUNoQyxDQUFDO0NBQ0YsQ0FBQyxDQUFBIiwic291cmNlc0NvbnRlbnQiOlsiUGFnZSh7XHJcbiAgLyoqXHJcbiAgICogUGFnZSBpbml0aWFsIGRhdGFcclxuICAgKi9cclxuICBkYXRhOiB7XHJcbiAgICB0aXRsZTogXCJTU0REU1NcIixcclxuICAgIGFiZTogXCJzZGRzXCIsXHJcbiAgICBwcm9ncmVzczogMCxcclxuICB9LFxyXG4gIGJ1dHRvbkNsaWNrKGU6IGFueSkge1xyXG4gICAgY29uc29sZS5sb2coZSArIFwibG9naW4gIVwiKTtcclxuICAgIHRoaXMuc2V0RGF0YSh7IHByb2dyZXNzOiAxMDAgfSk7XHJcbiAgfSxcclxuICBwcm9ncmVzc0ZpbmlzaGVkKCkge1xyXG4gICAgdGhpcy5zZXREYXRhKHsgcHJvZ3Jlc3M6IDAgfSk7XHJcbiAgfVxyXG59KVxyXG4iXX0=
