@@ -1,0 +1,20 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "miniprogramRoot": "miniprogram/",
+  "compileType": "miniprogram",
+  "libVersion": "2.8.2",
+  "projectname": "miniprogram-newsight",
+  "scripts": {
+    "beforeCompile": "npm run tsc",
+    "beforePreview": "npm run tsc",
+    "beforeUpload": "npm run tsc"
+  },
+  "setting": {},
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "appid": "wx4f106d0464f116cb",
+  "condition": {}
+}
