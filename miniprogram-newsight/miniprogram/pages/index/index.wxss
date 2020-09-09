@@ -1,21 +1,27 @@
-/**index.wxss**/
-.userinfo {
+.header {
+  width: 100%;
+  height: 90rpx;
+  border: 1px solid red;
+}
+
+.hdCon {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.hdCon .logo {
+  height: 50rpx;
+  width: 170rpx;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.hdCon .kefu {
+  height: 50rpx;
+  width: 50rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+.hdCon image {
+  height: 100%;
+  width: inherit;
 }
