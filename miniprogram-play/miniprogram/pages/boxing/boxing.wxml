@@ -1,7 +1,7 @@
 <view class="background">
   <image src="../../images/training.jpg" mode="aspectFill" class="background-image" />
   <view class="panel">
-    <text class="title"> Leading with the jab</text>
+    <view class="title"> Leading with the jab</view>
 
     <view class="btn-group">
       <button class="btn">Easy</button>

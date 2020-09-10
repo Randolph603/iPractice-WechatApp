@@ -17,22 +17,30 @@
 }
 
 .panel {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
   backdrop-filter: saturate(80%) blur(2px) grayscale(10%);
   height: 100%;
-  width: 100%;
+  width: 100%; 
+}
+
+.title {  
+  margin: 22px;
+  box-sizing: border-box;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12vw;
+  font-weight: 900;
 }
 
 .btn-group {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
-  width: 100%;    
+  justify-content: space-around;  
+  margin: 10px;
 }
 
-.btn {  
-  font-size: 15;  
-  box-sizing: border-box;  
+.btn {
+  font-size: 12px;
   width: fit-content !important;
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.3);
