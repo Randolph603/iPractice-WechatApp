@@ -1,0 +1,13 @@
+<view class="background">
+  <image src="../../images/training.jpg" mode="aspectFill" class="background-image" />
+  <view class="panel">
+    <text class="title"> Leading with the jab</text>
+
+    <view class="btn-group">
+      <button class="btn">Easy</button>
+      <button class="btn">Boxing</button>
+      <button class="btn">Technique</button>
+    </view>
+
+  </view>
+</view>

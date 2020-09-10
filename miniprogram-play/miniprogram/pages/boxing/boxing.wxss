@@ -1,0 +1,40 @@
+.background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*垂直居中*/
+  justify-content: center;
+  /*水平居中*/
+}
+
+.background-image {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.panel {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: saturate(80%) blur(2px) grayscale(10%);
+  height: 100%;
+  width: 100%;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 100%;    
+}
+
+.btn {  
+  font-size: 15;  
+  box-sizing: border-box;  
+  width: fit-content !important;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+}
