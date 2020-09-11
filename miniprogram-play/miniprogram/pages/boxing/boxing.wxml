@@ -1,13 +1,60 @@
 <view class="background">
   <image src="../../images/training.jpg" mode="aspectFill" class="background-image" />
   <view class="panel">
+
+    <view class="row row-top">
+      <view class="download"></view>
+      <view class="button">
+        <!-- <view class="close"></view> -->
+      </view>
+    </view>
+
     <view class="title"> Leading with the jab</view>
+
+    <view class="row">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
 
     <view class="btn-group">
       <button class="btn">Easy</button>
       <button class="btn">Boxing</button>
       <button class="btn">Technique</button>
     </view>
+
+    <view class="info-box">
+      <view class="row">
+        <image src="../../images/fire.png" />
+        <text>500 kcal</text>
+      </view>
+      <view class="row">
+        <image src="../../images/clock.png" />
+        <text>8 minutes</text>
+      </view>
+      <view class="row">
+        <image src="../../images/boxing.png" />
+        <text>No tools needed</text>
+      </view>
+    </view>
+
+    <view class="row switch">
+      <view class="row left">
+        <image src="../../images/heard.png" />
+        <view class="column">
+          <text>OFF</text>
+          <text class="small">heart rate</text>
+        </view>
+      </view>
+      <view class="row right">
+        <image src="../../images/boxing-flag.png" />
+        <view class="column">
+          <text>ON</text>
+          <text class="small">Live stats</text>
+        </view>
+      </view>
+    </view>
+
+    <button class="startBtn">LET'S START</button>
 
   </view>
 </view>

@@ -1,66 +1,34 @@
-// pages/boxing/boxing.js
+"use strict";
+var app = getApp();
 Page({
-
   /**
    * Page initial data
    */
   data: {
-
+    userInfo: {},
+    hasUserInfo: false,
   },
 
   /**
    * Lifecycle function--Called when page load
    */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page is initially rendered
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page show
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page hide
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page unload
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * Page event handler function--Called when user drop down
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * Called when page reach bottom
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * Called when user click on the top right corner to share
-   */
-  onShareAppMessage: function () {
-
+  onLoad: function () {
+    var _this = this;
+    if (app.globalData.userInfo) {
+        this.setData({
+            userInfo: app.globalData.userInfo,
+            hasUserInfo: true,
+        });
+    } else {
+        wx.getUserInfo({
+            success: function (res) {
+                app.globalData.userInfo = res.userInfo;
+                _this.setData({
+                    userInfo: res.userInfo,
+                    hasUserInfo: true,
+                });
+            },
+        });
+    }
   }
 })
