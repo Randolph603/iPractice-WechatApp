@@ -1,0 +1,153 @@
+<HdView/>
+
+
+
+
+
+
+
+
+
+<view class="banner">
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" circular autoplay interval="4000">
+    <swiper-item><image src="/images/banner1.jpg"/></swiper-item>
+    <swiper-item><image src="/images/banner2.jpg"/></swiper-item>
+    <swiper-item><image src="/images/banner3.jpg"/></swiper-item>
+  </swiper>
+</view>
+
+
+<scroll-view class="major" scroll-x>   
+      <navigator  class="box" url="/pages/ps/ps">
+        <image class="pic" src="/images/kecheng1.png"/>
+        <view class="txt">平面设计</view>
+      </navigator>
+      <navigator class="box">
+        <image class="pic" src="/images/kecheng2.png"/>
+        <view class="txt">室内设计</view>
+      </navigator>
+      <navigator class="box" url="">
+        <image class="pic" src="/images/kecheng3.png"/>
+        <view class="txt">UI设计</view>
+      </navigator>
+      <navigator class="box" url="">
+        <image class="pic" src="/images/kecheng4.png"/>
+        <view class="txt">影视后期</view>
+      </navigator>
+      <navigator class="box" url="">
+        <image class="pic" src="/images/kecheng5.png"/>
+        <view class="txt">Web前端</view>
+      </navigator>   
+</scroll-view>
+
+
+
+<view class="works">
+  <view class="container">
+    <PubTitle myTitle="学员作品" myUrl="/pages/works/works"/>
+    
+
+    <view class="wkMain">
+
+      <navigator class="box" open-type="reLaunch" url="/pages/works/works?idx=3&id=20">
+        <image class="pic" src="/images/xszp1.jpg"></image>
+        <view class="ceng">
+          <view class="tit">UI设计作品</view>
+          <view class="line"></view>
+          <view class="des">UI design works</view>
+        </view>
+      </navigator>
+
+
+      <navigator class="box" open-type="reLaunch" 
+      url="/pages/works/works?idx=1&id=18">
+        <image class="pic" src="/images/xszp2.jpg"></image>
+        <view class="ceng">
+          <view class="tit">平面作品</view>
+          <view class="line"></view>
+          <view class="des">ping mian zuo pin</view>
+        </view>
+      </navigator>
+
+
+      <navigator class="box" open-type="reLaunch" url="/pages/works/works?idx=4&id=21">
+        <image class="pic" src="/images/xszp3.jpg"></image>
+        <view class="ceng">
+          <view class="tit">电商作品</view>
+          <view class="line"></view>
+          <view class="des">dian shang zuo pin</view>
+        </view>
+      </navigator>
+
+
+      <navigator class="box" open-type="reLaunch" url="/pages/works/works?idx=2&id=19">
+        <image class="pic" src="/images/xszp4.jpg"></image>
+        <view class="ceng">
+          <view class="tit">室内作品</view>
+          <view class="line"></view>
+          <view class="des">shinei works</view>
+        </view>
+      </navigator>
+
+
+      <navigator class="box" open-type="reLaunch" url="/pages/works/works?idx=3&id=20">
+        <image class="pic" src="/images/xszp5.jpg"></image>
+        <view class="ceng">
+          <view class="tit">UI设计作品</view>
+          <view class="line"></view>
+          <view class="des">UI design works</view>
+        </view>
+      </navigator>
+
+
+      <navigator class="box" open-type="reLaunch" url="/pages/works/works?idx=3&id=20">
+        <image class="pic" src="/images/xszp6.jpg"></image>
+        <view class="ceng">
+          <view class="tit">UI设计作品</view>
+          <view class="line"></view>
+          <view class="des">UI design works</view>
+        </view>
+      </navigator>
+
+      <navigator class="box" open-type="reLaunch" url="/pages/works/works?idx=6&id=23">
+        <image class="pic" src="/images/xszp7.jpg"></image>
+        <view class="ceng">
+          <view class="tit">Web前端作品</view>
+          <view class="line"></view>
+          <view class="des">Web front end works</view>
+        </view>
+      </navigator>
+
+      <navigator class="box" open-type="reLaunch" url="/pages/works/works?idx=3&id=20">
+        <image class="pic" src="/images/xszp8.jpg"></image>
+        <view class="ceng">
+          <view class="tit">UI设计作品</view>
+          <view class="line"></view>
+          <view class="des">UI design works</view>
+        </view>
+      </navigator>
+
+
+    </view>
+  </view>
+
+</view>
+
+
+<view class="dynamic">
+  <view class="container">
+    <PubTitle myTitle="行业动态" myUrl="/pages/ps/ps"/>
+
+    <view class="dyMain">
+      
+
+      <block wx:for="{{dataList}}" wx:key="index">
+        <DyItem myItem="{{item}}" />
+      </block>      
+      
+
+    </view>
+  </view>
+</view>
+
+<FtView/>

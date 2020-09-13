@@ -1,0 +1,14 @@
+<navigator  class="dyItem" 
+url="/pages/show/show?id={{myItem.id}}">
+        <view class="pic">
+          <image class="dyItemPic" src="{{myItem.picurl}}"></image>
+        </view>
+        <view class="txt">
+          <view class="title">
+            {{myItem.title}}
+          </view>
+          <view class="info">
+            <text class="dyItemTxt">作者：</text>{{myItem.author}}<text space="ensp">  -  </text><text class="dyItemTxt">时间：</text>{{myItem.posttime}}
+          </view>
+        </view>
+</navigator>

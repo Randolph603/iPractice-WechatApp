@@ -1,0 +1,14 @@
+<import src="../../wxParse/wxParse.wxml" />
+<view class="container">
+  <view class="showTitle">{{showData.title}}</view>
+  <view class="showInfo">
+    发布时间:{{showData.posttime}}
+    <text decode>&nbsp;&nbsp;&nbsp;&nbsp;</text>
+    作者：{{showData.author}}
+  </view>
+  <view class="showCon">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+    
+  </view>
+
+</view>

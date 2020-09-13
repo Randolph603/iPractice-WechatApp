@@ -1,0 +1,18 @@
+.wkNav{ height: 80rpx; box-shadow: 0 10rpx 10rpx rgba(0,0,0,0.05);border-top:1rpx solid #efefef; white-space: nowrap;}
+.wkNav .box{ display: inline-block; line-height: 80rpx; width:150rpx; text-align: center; font-size:30rpx; position: relative;}
+.wkNav .box.active{ color:#c00;}
+.wkNav .box.active::after{ content: ""; display: block; width:40rpx; height: 5rpx; background:#c00; position: absolute; left:50%; margin-left:-20rpx; bottom:0;}
+
+.wkMain{ padding:40rpx 0; box-sizing: border-box; background:#f1f1f1; display: flex; flex-wrap: wrap; justify-content: space-around;}
+.wkMain::after{ content: ""; display: block;  width:360rpx;}
+
+.wkBox{ width:360rpx; height: 400rpx; border-radius: 8rpx; overflow: hidden; box-shadow: 0 8rpx 15rpx rgba(0,0,0,0.08);margin-bottom:20rpx;}
+.wkBoxPic{ width:360rpx; height: 234rpx; display: block;}
+.wkBoxTxt{width:100%; height: 166rpx; background: #fff; padding:15rpx; box-sizing: border-box;}
+.wkBoxTxt .title{ font-size:28rpx; height: 100rpx; line-height: 1.5em; text-align: justify;}
+.wkBoxTxt .info{ display: flex; justify-content: space-between;font-size:23rpx; color:#666; align-items: center;}
+
+.wkBoxTxt .look{ display: flex; align-items: center;}
+.wkBoxTxt .lookpic{ width:30rpx; height: 30rpx; margin-right: 5rpx;}
+
+

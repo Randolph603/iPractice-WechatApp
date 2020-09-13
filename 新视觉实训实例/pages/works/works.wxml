@@ -1,0 +1,45 @@
+<HdView/>
+
+<scroll-view class="wkNav" scroll-x scroll-left="{{scrLeft}}" scroll-with-animation>
+  <view class="box {{index==navIdx?'active':''}}" bindtap="clickNav" data-idx="{{index}}" data-id="{{item.id}}" wx:for="{{navLists}}" wx:key="index">
+
+    <block wx:if="{{item.id==17}}">
+      全部
+    </block>
+    <block wx:else>
+      {{item.classname}}
+    </block>
+
+  </view>
+</scroll-view>
+
+<view class="wkMain" style="min-height:{{minHit}}px">
+
+  <navigator url="/pages/show/show?id={{item.id}}" class="wkBox" wx:for="{{wkLists}}" wx:key="index">    
+    <image class="wkBoxPic" src="{{item.picurl}}"></image>    
+    <view class="wkBoxTxt">
+      <view class="title">{{item.title}}</view>
+      <view class="info">
+        <view class="classname">{{item.classname}}</view>
+        <view class="look">
+          <image src="/images/look.png" class="lookpic"/>
+          <text>{{item.hits}}</text>
+        </view>
+      </view>
+    </view>
+  </navigator>
+  
+
+</view>
+
+
+<Loading myLoading="{{onLoaded}}"/>
+
+
+
+
+
+
+
+
+<FtView/>

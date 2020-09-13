@@ -1,0 +1,14 @@
+<HdView/>
+
+<view class="container dyMain">
+
+  <block wx:for="{{dyLists}}" wx:key="index">
+    <DyItem myItem="{{item}}"/>
+  </block>
+
+</view>
+
+<Loading myLoading="{{onLoading}}"/>
+
+
+<FtView/>

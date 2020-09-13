@@ -1,0 +1,21 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator class="logo" open-type="switchTab" url="/pages/index/index">
+      <image class="hdPic" mode="heightFix" src="/images/logo.png" />
+    </navigator>
+    <view class="kefu">
+      <button class="btn" open-type="contact" />
+      <image class="hdPic" mode="heightFix" src="/images/xiaoxi.png" />
+    </view>
+  </view>
+</view>
+
+<view class="banner">
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" 
+  indicator-active-color="#fff" circular autoplay interval="4000">
+    <swiper-item><image src="/images/banner1.jpg" class="banner" /></swiper-item>
+    <swiper-item><image src="/images/banner2.jpg" class="banner" /></swiper-item>
+    <swiper-item><image src="/images/banner3.jpg" class="banner" /></swiper-item>
+  </swiper>
+</view>
+
