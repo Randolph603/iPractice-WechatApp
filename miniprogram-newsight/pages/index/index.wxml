@@ -11,11 +11,104 @@
 </view>
 
 <view class="banner">
-  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" 
-  indicator-active-color="#fff" circular autoplay interval="4000">
-    <swiper-item><image src="/images/banner1.jpg" class="banner" /></swiper-item>
-    <swiper-item><image src="/images/banner2.jpg" class="banner" /></swiper-item>
-    <swiper-item><image src="/images/banner3.jpg" class="banner" /></swiper-item>
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" circular autoplay
+    interval="4000">
+    <swiper-item>
+      <image src="/images/banner1.jpg" class="banner" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner2.jpg" class="banner" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner3.jpg" class="banner" />
+    </swiper-item>
   </swiper>
 </view>
 
+<scroll-view class="major" scoll-x>
+  <navigator class="box" url="">
+    <image class="pic" src="/images/kecheng1.png" />
+    <view class="txt">平面设计</view>
+  </navigator>
+  <navigator class="box" url="">
+    <image class="pic" src="/images/kecheng2.png" />
+    <view class="txt">室内设计</view>
+  </navigator>
+  <navigator class="box" url="">
+    <image class="pic" src="/images/kecheng3.png" />
+    <view class="txt">UI设计</view>
+  </navigator>
+  <navigator class="box" url="">
+    <image class="pic" src="/images/kecheng4.png" />
+    <view class="txt">影视后期</view>
+  </navigator>
+  <navigator class="box" url="">
+    <image class="pic" src="/images/kecheng5.png" />
+    <view class="txt">Web前端</view>
+  </navigator>
+</scroll-view>
+
+<view class="works">
+  <view class="container">
+    <view class="pubTitle">
+      <view class="txt">学员作品</view>
+      <navigator class="more">更多 ></navigator>
+    </view>
+
+    <view class="wkMain">
+      <navigator class="box">
+        <image class="pic" src="/images/xszp1.jpg" />
+        <view class="ceng">
+          <view class="tit">UI设计作品</view>
+          <view class="line"></view>
+          <view class="des">Film and</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image class="pic" src="/images/xszp2.jpg" />
+        <view class="ceng">
+          <view class="tit">室内设计 </view>
+          <view class="line"></view>
+          <view class="des">This is a loooong dex</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image class="pic" src="/images/xszp3.jpg" />
+        <view class="ceng">
+          <view class="tit">Lol</view>
+          <view class="line"></view>
+          <view class="des">Film and</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image class="pic" src="/images/xszp4.jpg" />
+        <view class="ceng">
+          <view class="tit">UI设计作品</view>
+          <view class="line"></view>
+          <view class="des">Film and</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image class="pic" src="/images/xszp5.jpg" />
+        <view class="ceng">
+          <view class="tit">UI设计作品</view>
+          <view class="line"></view>
+          <view class="des">Film and</view>
+        </view>
+      </navigator>
+
+      <navigator class="box">
+        <image class="pic" src="/images/xszp6.jpg" />
+        <view class="ceng">
+          <view class="tit">Web 前端左偏</view>
+          <view class="line"></view>
+          <view class="des">Film and</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
