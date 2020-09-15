@@ -1,2 +1,59 @@
-<!--pages/ps/ps.wxml-->
-<text>pages/ps/ps.wxml</text>
+<HdView />
+
+<view class="banner">
+  <image mode="widthFix" src="/images/psbanner.jpg"></image>
+</view>
+
+
+<view class="psBox">
+  <view class="psBoxTit">
+    专业转件技能
+  </view>
+  <view class="psBoxConOne">
+    <view class="item">
+      <image src="/images/photoshop.png1.png"></image>
+      <view>photoshop</view>
+    </view>
+
+    <view class="item">
+      <image src="/images/ai.png2.png"></image>
+      <view>AI</view>
+    </view>
+
+    <view class="item">
+      <image src="/images/id.png3.png"></image>
+      <view>ID</view>
+    </view>
+
+    <view class="item">
+      <image src="/images/CDR.png4.png"></image>
+      <view>CDR</view>
+    </view>
+
+    <view class="item">
+      <image src="/images/acrobat.png6.png"></image>
+      <view>ACROBAT</view>
+    </view>
+  </view>
+</view>
+
+<view class="psBox" wx:for="{{6}}">
+  <view class="psBoxTit">
+    专业技能
+  </view>
+  <view class="psBoxCon">
+    <image src="/images/psmajor02.jpg2.jpg" mode="widthFix" class="pic"></image>
+    <view class="text">
+      <view>人像精修</view>
+      <view>商业广告片调色</view>
+      <view>商业海报级视觉精修</view>
+      <view>卡通人物制作</view>
+      <view>2.5D插画制作</view>
+      <view>3D文字视觉特效制作</view>
+      <view>平面广告创意</view>
+      <view>合成特效制作</view>
+    </view>
+  </view>
+</view>
+
+<FtView />

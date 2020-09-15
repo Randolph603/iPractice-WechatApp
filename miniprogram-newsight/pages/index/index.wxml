@@ -1,14 +1,4 @@
-<view class="header">
-  <view class="container hdCon">
-    <navigator class="logo" open-type="switchTab" url="/pages/index/index">
-      <image class="hdPic" mode="heightFix" src="/images/logo.png" />
-    </navigator>
-    <view class="kefu">
-      <button class="btn" open-type="contact" />
-      <image class="hdPic" mode="heightFix" src="/images/xiaoxi.png" />
-    </view>
-  </view>
-</view>
+<HdView/>
 
 <view class="banner">
   <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" circular autoplay
@@ -25,8 +15,9 @@
   </swiper>
 </view>
 
+
 <scroll-view class="major" scoll-x>
-  <navigator class="box" url="">
+  <navigator class="box" url="/pages/ps/ps">
     <image class="pic" src="/images/kecheng1.png" />
     <view class="txt">平面设计</view>
   </navigator>
@@ -50,10 +41,8 @@
 
 <view class="works">
   <view class="container">
-    <view class="pubTitle">
-      <view class="txt">学员作品</view>
-      <navigator class="more">更多 ></navigator>
-    </view>
+
+    <PubTitle myTitle="学员作品" myUrl="/pages/works/works"/>   
 
     <view class="wkMain">
       <navigator class="box">
@@ -115,10 +104,7 @@
 
 <view class="dynamic">
   <view class="container">
-    <view class="pubTitle">
-      <view class="txt">行业动态</view>
-      <navigator class="more">更多 ></navigator>
-    </view>
+    <PubTitle myTitle="行业动态" myUrl="/pages/ps/ps"/>
 
     <view class="dyMain">
       <navigator class="dyItem" wx:for="{{5}}">
@@ -138,7 +124,4 @@
   </view>
 </view>
 
-<view class="footer">
-  <image class="pic" mode="widthFix" src="/images/logo.png"></image>
-  <view class="text">- 高端实训品牌 -</view>
-</view>
+<FtView />
