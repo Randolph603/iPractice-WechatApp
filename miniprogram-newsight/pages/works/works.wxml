@@ -1,2 +1,3 @@
-<!--pages/works/works.wxml-->
-<text>pages/works/works.wxml</text>
+<HdView/>
+
+<FtView/>

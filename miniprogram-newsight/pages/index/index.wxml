@@ -107,16 +107,16 @@
     <PubTitle myTitle="行业动态" myUrl="/pages/ps/ps"/>
 
     <view class="dyMain">
-      <navigator class="dyItem" wx:for="{{5}}">
+      <navigator class="dyItem" wx:for="{{dataList}}" wx:key="index">
         <view class="pic">
-          <image src="/images/xszp1.jpg"></image>
+          <image src="{{item.picurl}}"></image>
         </view>
         <view class="txt">
           <view class="title">
-            这里是标题这里是标题这里是标题这里是标题这
+            {{item.title}}
           </view>
           <view class="info">
-            <text>作者</text>：小明<text space="ensp"> - </text> <text>时间</text>：2020-05-01
+            <text>作者</text>：{{item.author}}<text space="ensp"> - </text> <text>时间</text>：{{item.posttime}}
           </view>
         </view>
       </navigator>
